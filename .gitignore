@@ -1,16 +1,3 @@
-# Dash built code
-
-webviz_core_components/**/*
-!webviz_core_components/__init__.py
-!webviz_core_components/graph.py
-!webviz_core_components/flexbox.py
-!webviz_core_components/_argument_modifier.py 
-
-DESCRIPTION
-NAMESPACE
-R/
-man/
-inst/
 
 # Created by .ignore support plugin (hsz.mobi)
 ### VisualStudioCode template
