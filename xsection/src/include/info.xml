@@ -1,0 +1,6 @@
+<plugin>
+  <meta name="application-name" content="XSections" />
+  <meta name="author" content="Hakal" />
+  <meta name="description" content="XSections" />
+  <tree-location name="Horizons" />
+</plugin>
