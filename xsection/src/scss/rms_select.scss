@@ -1,0 +1,34 @@
+.rms-selector {
+font-family: inherit;
+/*font-size: 10.5pt;*/
+position: relative;
+display: inline-block;
+/*border: 1px solid #ABA8A5;*/
+border-radius: 2px;
+min-width: 200px;
+padding: 2px;
+background:inherit;
+/*background: linear-gradient(to bottom, #ffffff 0%, #F0EDEB 100%);*/
+}
+.rms-selector-open {
+background: linear-gradient(to bottom, #B8B5B2 0%, #DEE5E8 100%);
+}
+.rms-selector * {
+cursor: default;
+}
+.rms-selector-icon {
+height: 1em;
+vertical-align: middle;
+}
+.rms-selector-label {
+margin: 2px;
+vertical-align: middle;
+}
+.rms-selector-chevron {
+margin: 2px;
+vertical-align: middle;
+position: absolute;
+right: 0;
+/*font-size: 9pt;*/
+user-select: none;
+}

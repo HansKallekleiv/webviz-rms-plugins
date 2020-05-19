@@ -1,0 +1,37 @@
+{
+    "name": "xsection",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write *.js *.json 'src/**/*.+(js|jsx|json|css)'",
+        "linting": "prettier --check *.js *.json 'src/**/*.+(js|jsx|json|css)' && eslint src/"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^9.8.0",
+        "babel-eslint": "^10.1.0",
+        "copy-webpack-plugin": "^6.0.1",
+        "css-loader": "^3.5.3",
+        "eslint": "^7.0.0",
+        "eslint-config-prettier": "^6.11.0",
+        "html-webpack-plugin": "^4.3.0",
+        "node-sass": "^4.14.1",
+        "postcss-loader": "^3.0.0",
+        "prettier": "^2.0.5",
+        "sass-loader": "^8.0.2",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.0",
+        "bootstrap-icons": "^1.0.0-alpha3",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1"
+    }
+}
